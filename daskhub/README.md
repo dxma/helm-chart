@@ -488,7 +488,7 @@ The following table lists the configurable parameters of the Daskhub chart and t
 | `dask-gateway.gateway.resources` |  | `{}` |
 | `dask-gateway.gateway.loglevel` |  | `"INFO"` |
 | `dask-gateway.gateway.image.name` |  | `"ghcr.io/dask/dask-gateway-server"` |
-| `dask-gateway.gateway.image.tag` |  | `"2022.6.1"` |
+| `dask-gateway.gateway.image.tag` |  | `"2022.7.1"` |
 | `dask-gateway.gateway.image.pullPolicy` |  | `"IfNotPresent"` |
 | `dask-gateway.gateway.imagePullSecrets` |  | `[]` |
 | `dask-gateway.gateway.service.annotations` |  | `{}` |
@@ -509,7 +509,7 @@ The following table lists the configurable parameters of the Daskhub chart and t
 | `dask-gateway.gateway.readinessProbe.periodSeconds` |  | `10` |
 | `dask-gateway.gateway.readinessProbe.failureThreshold` |  | `3` |
 | `dask-gateway.gateway.backend.image.name` |  | `"ghcr.io/dask/dask-gateway"` |
-| `dask-gateway.gateway.backend.image.tag` |  | `"2022.6.1"` |
+| `dask-gateway.gateway.backend.image.tag` |  | `"2022.7.1"` |
 | `dask-gateway.gateway.backend.image.pullPolicy` |  | `"IfNotPresent"` |
 | `dask-gateway.gateway.backend.namespace` |  | `null` |
 | `dask-gateway.gateway.backend.environment` |  | `{}` |
@@ -542,7 +542,7 @@ The following table lists the configurable parameters of the Daskhub chart and t
 | `dask-gateway.controller.k8sApiRateLimit` |  | `50` |
 | `dask-gateway.controller.k8sApiRateLimitBurst` |  | `100` |
 | `dask-gateway.controller.image.name` |  | `"ghcr.io/dask/dask-gateway-server"` |
-| `dask-gateway.controller.image.tag` |  | `"2022.6.1"` |
+| `dask-gateway.controller.image.tag` |  | `"2022.7.1"` |
 | `dask-gateway.controller.image.pullPolicy` |  | `"IfNotPresent"` |
 | `dask-gateway.controller.nodeSelector` |  | `{}` |
 | `dask-gateway.controller.affinity` |  | `{}` |
